@@ -1,0 +1,12 @@
+/* Tema Claro */
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Tema Escuro */
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+  

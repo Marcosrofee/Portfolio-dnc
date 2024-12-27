@@ -1,0 +1,9 @@
+.slider{
+    margin-top: 400px;
+}
+.slider-item{ 
+  
+    width:500px;
+    height: 640px;
+    object-fit: cover;
+}

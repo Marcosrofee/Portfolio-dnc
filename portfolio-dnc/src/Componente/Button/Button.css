@@ -1,0 +1,50 @@
+/*BUTTON-PRIMARY*/
+.btn-primary{
+
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: #FFFFFF;
+    display: flex;
+    width: 162px;
+    height: 30px; 
+    border-radius: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:"Poppins "sans-serif ;
+    font-size: 20px;
+}
+.btn-primary p{
+    margin-left: 30px;
+    margin-top: -1px;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+/*BUTTON-SECONDARY*/
+.btn-secondary{
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: #FFFFFF;
+
+    font-family: "Poppins"sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    border-radius: 20px;
+    box-shadow: #FFFFFF;
+
+    cursor: pointer;
+}
+/*OUTLINE*/
+.btn-outline{
+    background-color: white;
+    color: #13ADC7;
+}
+.btn-outline:hover{
+    background-color:#0C70F2;
+    color: white;
+}
+/*DISABLED*/
+.btn:disabled,.button:disabled>:hover{
+    background-color: #ccc;
+    color: #666;
+}

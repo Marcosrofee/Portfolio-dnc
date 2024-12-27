@@ -1,0 +1,64 @@
+.tecn h1{
+    margin-left: 400px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+}
+.tecn h1::before,
+.tecn h1::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:0.3s ease-out ;
+}
+
+.tecn h1:hover::before{
+    color: #bb0000;
+    transform: translate(12px, -12px);
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color: black;
+}
+.tecn h1:hover::after{
+    color: #77efff;
+    transform: translate(24px, -24px);
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color: black;
+
+}
+.CardA{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 40px;
+}
+
+.card-a{
+    width: 374px;
+    height: 257px;
+    margin-top: 223px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: #FFFFFF;
+
+}
+.card-a h2{
+    color: #FFFFFF;
+    font-family: "Poppins"sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 80px;
+}
+.card-a h2:hover{
+    font-size: 22px;
+    font-weight: 800;
+}
+.card-a p{
+    color: black;
+    font-family: "Poppins"sans-serif;
+    font-weight: 800;
+}
